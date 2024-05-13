@@ -1,5 +1,19 @@
 <script>
     import { base } from '$app/paths'
+    import { onMount } from 'svelte';
+
+    onMount(() => {
+        console.log('attaching particles js');
+        const script = document.createElement('script');
+        script.src = 'assets/particles.js'; // might be outdated so check for an update can link
+        document.body.appendChild(script);
+
+
+        console.log('attaching app js');
+        const config = document.createElement('script');
+        config.src = 'assets/app.js'; // might be outdated so check for an update can link
+        document.body.appendChild(config);
+    });
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,8 +49,7 @@
 <div class="rectangle"><!-- svelte-ignore a11y-missing-content --><a class="work2" href="{base}/workdisplay"></a></div>
 </div>
 <div id="particles-js"></div>
-<script src="assets/particles.js"></script>
-<script src="assets/app.js"></script>
+
 </html>
 
 <style>
