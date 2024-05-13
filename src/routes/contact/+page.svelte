@@ -23,9 +23,7 @@ onMount(() => {
 <link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet">
 
 <html lang="en">
-        <h7>Contacts</h7>
-        <p4>Find me at</p4>
-        <p5>Instagram: X: Facebook: Email: Phone:</p5>
+        <h7>Instagram: X: Facebook: Email: Phone:</h7>
         <div id="particles-js"></div>
 
 </html>
@@ -43,30 +41,11 @@ onMount(() => {
     h7 {
         position: absolute;
         top: 10%;
-        left: 44.5%;
+        left: 31%;
         font-size: 3.8rem;
         font-family: "DM Serif Text", serif;
         font-weight: 400;
         font-style: normal;
     }
 
-    p4 {
-        position:absolute;
-        top: 18%;
-        left: 46%;
-        font-size: 2rem;
-        font-family: "Sedan", serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-
-    p5 {
-        position: absolute;
-        top: 25%;
-        left: 46%;
-        font-size: 2rem;
-        font-family: "Sedan", serif;
-        font-weight: 400;
-        font-style: normal;
-    }
 </style>

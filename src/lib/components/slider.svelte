@@ -1,13 +1,3 @@
-<script>
-  import { onMount } from 'svelte';
-
-onMount(() => {
-    console.log('attaching sliderjs');
-    const config = document.createElement('script');
-    config.src = 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js'; // might be outdated so check for an update can link
-    document.body.appendChild(config);
-});
-</script>
 
 <html lang="en">
 
@@ -73,6 +63,7 @@ onMount(() => {
     <div class="swiper-button-prev"></div>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
   <script>
     var swiper = new Swiper(".mySwiper", {
