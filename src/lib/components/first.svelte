@@ -1,4 +1,5 @@
 <script>
+    import { base } from '$app/paths'
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,17 +26,17 @@
 </div>
 
 <div class="contactinfo">
-    <a href="/contact"><h4>Get in touch</h4></a>
+    <a href="{base}/contact"><h4>Get in touch</h4></a>
     <p3>Have a project in mind or just want to talk? Contact information below I'll get back to you as soon as possible.</p3>
 </div>
 <div id="rectanglewrap">
-<div class="rectangle"><!-- svelte-ignore a11y-missing-content --><a class="work2" href="/workdisplay"></a></div>
-<div class="rectangle"><!-- svelte-ignore a11y-missing-content --><a class="work2" href="/workdisplay"></a></div>
-<div class="rectangle"><!-- svelte-ignore a11y-missing-content --><a class="work2" href="/workdisplay"></a></div>
+<div class="rectangle"><!-- svelte-ignore a11y-missing-content --><a class="work2" href="{base}/workdisplay"></a></div>
+<div class="rectangle"><!-- svelte-ignore a11y-missing-content --><a class="work2" href="{base}/workdisplay"></a></div>
+<div class="rectangle"><!-- svelte-ignore a11y-missing-content --><a class="work2" href="{base}/workdisplay"></a></div>
 </div>
 <div id="particles-js"></div>
-<script src="/assets/particles.js"></script>
-<script src="/assets/app.js"></script>
+<script src="assets/particles.js"></script>
+<script src="assets/app.js"></script>
 </html>
 
 <style>

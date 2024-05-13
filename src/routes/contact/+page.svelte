@@ -13,8 +13,8 @@
         <p4>Find me at</p4>
         <p5>Instagram: X: Facebook: Email: Phone:</p5>
         <div id="particles-js"></div>
-        <script src="/assets/particles.js"></script>
-        <script src="/assets/app.js"></script>
+        <script src="assets/particles.js"></script>
+        <script src="assets/app.js"></script>
 </html>
 
 <style>
