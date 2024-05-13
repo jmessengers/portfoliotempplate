@@ -63,8 +63,8 @@ onMount(() => {
     p5 {
         position: absolute;
         top: 25%;
-        left: 30%;
-        font-size: 3.8rem;
+        left: 46%;
+        font-size: 2rem;
         font-family: "Sedan", serif;
         font-weight: 400;
         font-style: normal;
